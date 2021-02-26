@@ -6,6 +6,7 @@ class Services extends BaseController
 {
     public function index()
     {
-        return view('services/index');
+        $data = [ 'title' => 'Services' ];
+        return view('services/index', $data);
     }
 }

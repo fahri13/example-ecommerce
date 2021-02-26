@@ -9,18 +9,30 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item <?php
+              if ($title == "Home") {
+                echo "active";
+              }?>">
                 <a class="nav-link" href="<?= base_url('/home/index') ?>">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php
+              if ($title == "About") {
+                echo "active";
+              }?>">
                 <a class="nav-link" href="<?= base_url('/about/index') ?>">About Us</a>
               </li>  
-              <li class="nav-item">
+              <li class="nav-item <?php
+              if ($title == "Services") {
+                echo "active";
+              }?>">
                 <a class="nav-link" href="<?= base_url('/services/index') ?>">Our Services</a>
               </li>                          
-              <li class="nav-item">
+              <li class="nav-item <?php
+              if ($title == "Contact") {
+                echo "active";
+              }?>">
                 <a class="nav-link" href="<?= base_url('/contact/index') ?>">Contact Us</a>
               </li>
             </ul>

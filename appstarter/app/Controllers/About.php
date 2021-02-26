@@ -6,6 +6,7 @@ class About extends BaseController
 {    
         public function index()
         {
-            return view('about/index');
+            $data = [ 'title' => 'About' ];
+            return view('about/index', $data);
         }
 }

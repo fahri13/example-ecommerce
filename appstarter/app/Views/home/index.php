@@ -22,7 +22,7 @@
                   <h6>we are ready to help you</h6>
                   <h4>Financial Analysis<br>&amp; Consulting</h4>
                   <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. This is a multiple-page version with different HTML pages. <a href="one-page.html">One-page version</a> is available as of 2021 February.</p>
-                  <a href="contact.html" class="filled-button">contact us</a>
+                  <a href="<?=base_url('contact/index') ?>" class="filled-button">contact us</a>
                 </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
                   <h6>we are here to support you</h6>
                   <h4>Accounting<br>&amp; Management</h4>
                   <p>You are allowed to use this template for your company websites. You are NOT allowed to re-distribute this template ZIP file on any template download website. Please contact TemplateMo for more detail.</p>
-                  <a href="services.html" class="filled-button">our services</a>
+                  <a href="<?= base_url('services/index') ?>" class="filled-button">our services</a>
                 </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
                   <h6>we have a solid background</h6>
                   <h4>Market Analysis<br>&amp; Statistics</h4>
                   <p>You can download, edit and use this layout for your business website. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-                  <a href="about.html" class="filled-button">learn more</a>
+                  <a href="<?= base_url('about/index') ?>" class="filled-button">learn more</a>
                 </div>
             </div>
           </div>
@@ -63,7 +63,7 @@
             <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
           </div>
           <div class="col-md-4">
-            <a href="contact.html" class="border-button">Contact Us</a>
+            <a href="<?= base_url('contact/index') ?>" class="border-button">Contact Us</a>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/service_01.jpg" alt="">
+              <img src="<?= base_url('template/assets/images/service_01.jpg') ?>" alt="">
               <div class="down-content">
                 <h4>Digital Currency</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -90,7 +90,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/service_02.jpg" alt="">
+              <img src="<?= base_url('template/assets/images/service_02.jpg') ?>" alt="">
               <div class="down-content">
                 <h4>Market Analysis</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -100,7 +100,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/service_03.jpg" alt="">
+              <img src="<?= base_url('template/assets/images/service_03.jpg') ?>" alt="">
               <div class="down-content">
                 <h4>Historical Data</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -164,7 +164,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="assets/images/more-info.jpg" alt="">
+                    <img src="<?= base_url('template/assets/images/more-info.jpg') ?>" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 align-self-center">
@@ -289,23 +289,23 @@
             <div class="owl-partners owl-carousel">
             
               <div class="partner-item">
-                <img src="assets/images/client-01.png" title="1" alt="1">
+                <img src="<?= base_url('template/assets/images/client-01.png') ?>" title="1" alt="1">
               </div>
               
               <div class="partner-item">
-                <img src="assets/images/client-01.png" title="2" alt="2">
+                <img src="<?= base_url('template/assets/images/client-01.png') ?>" title="2" alt="2">
               </div>
               
               <div class="partner-item">
-                <img src="assets/images/client-01.png" title="3" alt="3">
+                <img src="<?= base_url('template/assets/images/client-01.png') ?>" title="3" alt="3">
               </div>
               
               <div class="partner-item">
-                <img src="assets/images/client-01.png" title="4" alt="4">
+                <img src="<?= base_url('template/assets/images/client-01.png') ?>" title="4" alt="4">
               </div>
               
               <div class="partner-item">
-                <img src="assets/images/client-01.png" title="5" alt="5">
+                <img src="<?= base_url('template/assets/images/client-01.png') ?>" title="5" alt="5">
               </div>
               
             </div>
