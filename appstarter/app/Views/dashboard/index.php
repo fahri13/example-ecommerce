@@ -18,7 +18,7 @@
                 <a class="nav-link" href="<?= base_url('/about/index') ?>">About Us</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('/servies/index') ?>">Our Services</a>
+                <a class="nav-link" href="<?= base_url('/services/index') ?>">Our Services</a>
               </li>                          
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('/contact/index') ?>">Contact Us</a>
